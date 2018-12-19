@@ -1,0 +1,52 @@
+{
+    "success": true,
+    "error": null,
+    "body": [
+        {
+            "id": 1,
+            "description": "Final de ano top",
+            "data": "2019-01-01",
+            "category": {
+                "id": 2,
+                "description": "Réveillon"
+            },
+            "place": {
+                "id": 1,
+                "description": "Cajuína Shows e Eventos",
+                "address": {
+                    "id": 1,
+                    "cep": 64023274,
+                    "street": "R. Quinze de Novembro",
+                    "district": "Morada Nova",
+                    "complement": null,
+                    "number": 198,
+                    "city": "Teresina",
+                    "uf": "PI"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "description": "Confra Show",
+            "data": "2018-12-30",
+            "category": {
+                "id": 1,
+                "description": "Festas"
+            },
+            "place": {
+                "id": 2,
+                "description": "Follow",
+                "address": {
+                    "id": 2,
+                    "cep": 64052535,
+                    "street": "Av. Dom Severino",
+                    "district": "Horto",
+                    "complement": null,
+                    "number": 2709,
+                    "city": "Teresina",
+                    "uf": "PI"
+                }
+            }
+        }
+    ]
+}
