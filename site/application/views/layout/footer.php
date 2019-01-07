@@ -12,11 +12,11 @@
 </section>
 
   
-    <script src="<?php echo base_url(); ?>assets/plugins/jquery/jquery-2.1.3.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bootstrap/js/bootstrap.js"></script>
     <script src="<?php echo base_url(); ?>assets/plugins/jquery-ui/jquery-ui.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/validate/jquery.validate.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/validate/jquery.validate.rules.js"></script>
-    <script src="<?php echo base_url(); ?>assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/plugins/dropdown/js/script.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/plugins/parallax/jarallax.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/plugins/theme/js/script.js"></script>

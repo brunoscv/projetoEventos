@@ -8,13 +8,10 @@
   <link rel="shortcut icon" href="assets/images/user.png" type="image/x-icon">
   <meta name="description" content="">
   <title>Projeto Eventos</title>
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/socicon/css/styles.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/dropdown/css/style.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/theme/css/style.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/gallery/style.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/unitegalery/css/main.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css" type="text/css">
         
@@ -43,7 +40,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="#">
-                        <img src="assets/images/user.png" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/user.png" alt="">
                     </a>
                 </span>
             </div>

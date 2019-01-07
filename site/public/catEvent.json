@@ -1,0 +1,116 @@
+{
+    "success": true,
+    "error": null,
+    "body": {
+        "category": [
+            {
+                "id": 1,
+                "description": "Festas",
+                "events": [
+                    {
+                        "id": 1,
+                        "description": "Confra Show",
+                        "information": null,
+                        "data": "2018-12-30 01:56:37",
+                        "category": {
+                            "id": 1,
+                            "description": "Festas"
+                        },
+                        "place": {
+                            "id": 2,
+                            "description": "Follow",
+                            "address": {
+                                "id": 2,
+                                "cep": 64052535,
+                                "street": "Av. Dom Severino",
+                                "district": "Horto",
+                                "complement": null,
+                                "number": 2709,
+                                "city": "Teresina",
+                                "uf": "PI"
+                            }
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "description": "Musica Eletronica",
+                        "information": null,
+                        "data": "2018-12-28 22:44:37",
+                        "category": {
+                            "id": 1,
+                            "description": "Festas"
+                        },
+                        "place": {
+                            "id": 2,
+                            "description": "Follow",
+                            "address": {
+                                "id": 2,
+                                "cep": 64052535,
+                                "street": "Av. Dom Severino",
+                                "district": "Horto",
+                                "complement": null,
+                                "number": 2709,
+                                "city": "Teresina",
+                                "uf": "PI"
+                            }
+                        }
+                    }  
+                ]
+            },
+            {
+                "id": 2,
+                "description": "Reveillon",
+                "events": [
+                    {
+                        "id": 3,
+                        "description": "Ano Novo Litoral",
+                        "information": null,
+                        "data": "2018-12-30 01:56:37",
+                        "category": {
+                            "id": 2,
+                            "description": "Reveillon"
+                        },
+                        "place": {
+                            "id": 2,
+                            "description": "Follow",
+                            "address": {
+                                "id": 2,
+                                "cep": 64052535,
+                                "street": "Av. Dom Severino",
+                                "district": "Horto",
+                                "complement": null,
+                                "number": 2709,
+                                "city": "Teresina",
+                                "uf": "PI"
+                            }
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "description": "Ano Novo Interior",
+                        "information": null,
+                        "data": "2018-12-28 22:44:37",
+                        "category": {
+                            "id": 2,
+                            "description": "Reveillon"
+                        },
+                        "place": {
+                            "id": 2,
+                            "description": "Follow",
+                            "address": {
+                                "id": 2,
+                                "cep": 64052535,
+                                "street": "Av. Dom Severino",
+                                "district": "Horto",
+                                "complement": null,
+                                "number": 2709,
+                                "city": "Teresina",
+                                "uf": "PI"
+                            }
+                        }
+                    }  
+                ]
+            }
+        ]   
+    }
+}

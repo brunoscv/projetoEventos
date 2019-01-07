@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends MY_Controller {
+class Events extends MY_Controller {
 
 	public $data;	
 	function __construct(){
@@ -8,12 +8,17 @@ class Home extends MY_Controller {
 	}
 
 	public function index(){ 
+		
+		$this->data['events'] = $this->getEvents();
 
-		$this->data['categories'] = $this->getCategories();
 
+		//arShow($this->data['events']); exit;
+		
 	}
 
-	public function getEvents($var = null) {
+	public function getEvents($evento_id = null) {
+		$evento_id = $this->uri->segment(3);
+
 		//$url = "https://jsonplaceholder.typicode.com/posts/42";
 		//header('Content-type: application/json');
 
@@ -23,8 +28,12 @@ class Home extends MY_Controller {
 		$events = array();
 		foreach ( $file as $event ){
 			$events = $event;
+			for ($i=0; $i < sizeof($events); $i++) { 
+                if( $events[$i]["id"] == $evento_id) {
+                    return $events[$i];
+                }
+            }
 		}
-		return $events;
 	}
 
 	public function getCategories($var = null){
