@@ -24,6 +24,16 @@
     <script type="text/javascript">
         var base_url = "<?php echo base_url(); ?>";
     </script>
+    <script src="<?php echo base_url(); ?>assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/bootstrap/js/bootstrap.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/validate/jquery.validate.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/validate/jquery.validate.rules.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/dropdown/js/script.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/parallax/jarallax.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/theme/js/script.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/gallery/script.js"></script>
+    <script src="<?php echo base_url(); ?>assets/plugins/simplecart/simpleCart.js"></script>
 </head>
 <body>
   <section class="menu cid-r1uW0hkCRd" once="menu" id="menu2-0">

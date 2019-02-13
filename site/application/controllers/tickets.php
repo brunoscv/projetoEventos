@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Events extends MY_Controller {
+class Tickets extends MY_Controller {
 
 	public $data;	
 	function __construct(){
@@ -19,6 +19,8 @@ class Events extends MY_Controller {
 	public function buy(){ 
 		
 		$this->data['events'] = $this->getEvents();
+
+		$this->load->view('modulos/tickets/buy', $this->data);
 
 
 		//arShow($this->data['events']); exit;

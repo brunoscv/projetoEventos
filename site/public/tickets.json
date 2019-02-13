@@ -1,0 +1,65 @@
+{
+    "success": true,
+    "error": null,
+    "body": {
+        "sectors": [
+            {
+                "description": "Camarote",
+                "tickets": [
+                    {
+                        "lot":{
+                                "price": 150,
+                                "date": "2019-01-15 01:04:26",
+                                "status": "active"
+                            }
+                    }
+                ]
+            },
+            {
+               "description": "Front",
+                "tickets": [
+                    {
+                        "lot":{
+                                "description": "2º Lote",
+                                "price": 50,
+                                "date": "2019-01-15 01:04:26",
+                                "status": "active"
+                            }
+                    },
+                    {
+                       "lot":{
+                                "description": "1º Lote",
+                                "price": 25,
+                                "date": "2019-01-15 01:04:26",
+                                "status": "active"
+                            } 
+                    }
+                ] 
+            }
+        ],
+        "event": {
+            "id": 1,
+            "description": "Final de ano top",
+            "information": null,
+            "data": "2019-01-01 01:55:44",
+            "category": {
+                "id": 2,
+                "description": "Réveillon"
+            },
+            "place": {
+                "id": 1,
+                "description": "Cajuína Shows e Eventos",
+                "address": {
+                    "id": 1,
+                    "cep": 64023274,
+                    "street": "R. Quinze de Novembro",
+                    "district": "Morada Nova",
+                    "complement": null,
+                    "number": 198,
+                    "city": "Teresina",
+                    "uf": "PI"
+                }
+            }
+        }
+    }
+}

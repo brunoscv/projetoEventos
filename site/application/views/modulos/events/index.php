@@ -11,7 +11,7 @@
 </section>
 <!-- PRIMEIRO CARROUSEL -->
 
-<!-- GALERIA DE CATEGORIAS -->
+<!-- SECTION DE CATEGORIAS -->
 <section class="categoriesCards">
     <div class="container">
         <div class="row">
@@ -59,4 +59,4 @@
         </div>
     </div>
 </section>
-<!-- GALERIA DE CATEGORIAS -->
+<!-- SECTION DE CATEGORIAS -->
